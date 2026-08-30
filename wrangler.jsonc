@@ -34,7 +34,7 @@
 		{
 			"binding": "DB",
 			"database_name": "m365-copilot2api",
-			"database_id": "a43501fb-b020-4324-a6c4-720508383207",
+			"database_id": "fd091566-5db8-4863-8192-87ed7c56354c",
 			"migrations_dir": "migrations"
 		}
 	],
