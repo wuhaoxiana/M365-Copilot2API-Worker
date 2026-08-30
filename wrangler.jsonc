@@ -19,8 +19,7 @@
 	},
 	"kv_namespaces": [
 		{
-			"binding": "m365-copilot2api_KV",
-			"id": "local-dev-namespace"
+			"binding": "m365-copilot2api_KV"
 			// CLI deploys: uncomment and fill in your namespace id:
 			// , "id": "your-kv-namespace-id"
 		}
