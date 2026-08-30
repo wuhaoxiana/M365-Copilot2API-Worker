@@ -19,7 +19,8 @@
 	},
 	"kv_namespaces": [
 		{
-			"binding": "m365-copilot2api_KV"
+			"binding": "m365-copilot2api_KV",
+            "id": "4ad045ced9a64668a71763b71567aac5"
 			// CLI deploys: uncomment and fill in your namespace id:
 			// , "id": "your-kv-namespace-id"
 		}
