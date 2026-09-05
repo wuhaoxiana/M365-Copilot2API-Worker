@@ -30,14 +30,7 @@
 	//   npx wrangler d1 migrations apply m365-copilot2api --remote
 	// then paste the returned database_id below. Without a binding the app
 	// falls back to legacy KV storage automatically.
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_name": "m365-copilot2api",
-			"database_id": "fd091566-5db8-4863-8192-87ed7c56354c",
-			"migrations_dir": "migrations"
-		}
-	],
+
 	// Durable Objects (MCP cross-isolate sessions + global coordination:
 	// admin-login lockout, account round-robin cursor, per-account concurrency
 	// semaphore, token-refresh mutex). Free plan supported (SQLite-backed
